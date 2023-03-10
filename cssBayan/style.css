@@ -118,11 +118,6 @@ body{
     font-size: calc(20px + 5 * ((100vw - 320px) / (1920 - 320))); 
     visibility: hidden;  
 } 
-.open_mem{
-   
-
-}
-
 :target .container_main_wrap_bayan_item_mem_image{ 
     height: calc(200px + 290 * ((100vw - 320px) / (1920 - 320))); 
     overflow: visible;
