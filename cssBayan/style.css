@@ -44,7 +44,6 @@ body{
 }
 .container_main_wrap_bayan:hover .container_main_wrap_bayan_item .container_main_wrap_bayan_item_text .active_wrap{
     visibility: visible;
-    
 }
 
 .container_main_wrap_bayan_item {
@@ -54,7 +53,6 @@ body{
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
-
 }
 .container_main_wrap_bayan_item_text {
     font-family: 'Tilt Warp';
@@ -65,17 +63,12 @@ body{
     color: rgb(55, 74, 216);
     margin-bottom: calc(10px + 10 * ((100vw - 320px) / (1920 - 320))); 
     height: calc(20px + 30 * ((100vw - 320px) / (1920 - 320))); 
-  
 }
-
-
 .container_main_wrap_bayan_item:hover .container_main_wrap_bayan_item_mem_image{
     height: calc(200px + 290 * ((100vw - 320px) / (1920 - 320))); 
     overflow: visible;
     opacity: 1;
     transition: .7s;
-
-
 }
 .container_main_wrap_bayan_item:hover .container_main_wrap_bayan_item_mem_image img{
     transition: .7s;
@@ -83,7 +76,6 @@ body{
 }
 .container_main_wrap_bayan_item:hover .active_wrap{
     transform: rotate(45deg);
-
 }
 .container_main_wrap_bayan_item_mem_image{
     display: flex;
@@ -98,8 +90,6 @@ body{
     transform: scale(0);
     transition: .7s;
 }
-
-
 .container_main_wrap_bayan_item_mem_image img{
     width: calc(160px + 260 * ((100vw - 320px) / (1920 - 320))); 
     padding-bottom: calc(10px + 15 * ((100vw - 320px) / (1920 - 320))); 
@@ -126,14 +116,8 @@ body{
     position: absolute;
     right: 0.625rem;
     font-size: calc(20px + 5 * ((100vw - 320px) / (1920 - 320))); 
-    visibility: hidden;
-    
+    visibility: hidden;  
 } 
-.open_mem{
-   
-
-}
-
 :target .container_main_wrap_bayan_item_mem_image{ 
     height: calc(200px + 290 * ((100vw - 320px) / (1920 - 320))); 
     overflow: visible;
@@ -146,7 +130,6 @@ body{
  }
  :target .open_mem{
     transform: rotate(45deg);
-
 }
 :target .container_main_wrap_bayan_item_text{ 
 color: black;
